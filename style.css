@@ -1,0 +1,48 @@
+#canvas{
+    border:2px solid black;
+    width:500px;
+    height:500px;
+    margin:auto;
+    display:grid;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+#color{
+    width:5%;
+    height:5%;
+    position: absolute;
+    left:5.5%;
+    top:1%;
+}
+#clear{
+    height:4%;
+    width:4%;
+    position: absolute;
+    left:6%;
+    top: 7%;
+}
+#sizeSlider{
+    position: absolute;
+    width: 14%;
+    left:1%;
+    top:12%;
+}
+#canvasSizeNumber{
+    position: absolute;
+    top:15%;
+    left:6.5%;
+}
+.pixel{
+    box-sizing: border-box;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+.pixel:hover, .pixel.colored:hover{
+    border:1px solid black;
+}
